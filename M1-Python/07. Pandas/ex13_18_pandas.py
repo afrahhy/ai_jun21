@@ -17,4 +17,4 @@ df.loc['f', 'age'] = 1.5
 #exercise 18
 
 df.sort_values(by=['age', 'visits'], ascending=[False, True])
-
+print(df)
