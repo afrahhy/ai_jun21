@@ -14,5 +14,7 @@ df = pd.DataFrame(data, index=['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j']
 # exercise 13
 df.loc['f', 'age'] = 1.5
 
-# exercise 15
-df.groupby('animal')['age'].mean()
+#exercise 18
+
+df.sort_values(by=['age', 'visits'], ascending=[False, True])
+
