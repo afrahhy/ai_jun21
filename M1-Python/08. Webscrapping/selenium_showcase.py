@@ -3,7 +3,7 @@ from time import sleep
 
 
 url = "https://www.amazon.es/s?k=laptop&__mk_es_ES=%C3%85M%C3%85%C5%BD%C3%95%C3%91&ref=nb_sb_noss_1"
-my_driver = (executable_path=r"C:\Users\afrah\OneDrive\Documents\01 STRIVE\chromedriver.exe")
+my_driver = r"C:\Users\afrah\OneDrive\Documents\01 STRIVE\chromedriver.exe"
 
 driver = webdriver.Chrome(my_driver)
 #webdriver.c
